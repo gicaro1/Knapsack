@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\n\ An\ Item\ has\ a\ name\ and\ a\ positive\ weight\ in\ grammes.\ Objects\ of\ this\ class\n\ are\ immutable\:\ after\ an\ object\ of\ class\ Item\ has\ been\ created,\ one\ cannot\n\ change\ the\ values\ of\ its\ attributes.\ Thus,\ the\ class\ Item\ has\ no\ mutators.\n\n\ @author\ Guiovanny\ Cardenas\n
+comment1.params=name\ weightInGrammes
+comment1.target=Item(java.lang.String,\ int)
+comment1.text=\n\ Constructs\ a\ new\ Item\ with\ given\ name\ and\ weightGrammes.\n\n\ @param\ name\ the\ name\ of\ the\ Item;\ must\ not\ be\ null\n\ @param\ weightInGrammes\ the\ weight\ of\ the\ Item\ in\ grammes;\ must\ be\n\ \ positive\n\ @throws\ NullPointerException\ if\ name\ is\ null\n\ @throws\ IllegalArgumentException\ if\ weightInGrammes\ is\ not\ positive\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ Returns\ the\ name\ of\ this\ Item.\n\n\ @return\ the\ name;\ always\ non-null\n
+comment3.params=
+comment3.target=int\ getWeightInGrammes()
+comment3.text=\n\ Returns\ the\ weight\ in\ grammes\ of\ this\ Item.\n\n\ @return\ the\ weightInGrammes;\ always\ greater\ than\ 0\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ Returns\ a\ String\ representation\ of\ this\ Item\ with\ a\ "(",\ the\ name\ of\n\ this\ Item,\ ",\ "\ (comma\ and\ space),\ the\ weight\ in\ grammes\ and\ "g)".\n\n\ For\ example,\ if\ i\ is\ an\ Item\ with\ name\ "Pen"\ and\ a\ weight\ of\ 20\ grammes\n\ the\ call\ i.toString()\ would\ return\ "(Pen,\ 20g)".\n\n\ @return\ a\ human-readable\ String\ representation\ of\ this\ Item\n\ @see\ java.lang.Object\#toString()\n
+comment5.params=
+comment5.target=int\ hashCode()
+comment5.text=\n\ Returns\ the\ hash\ code\ of\ this\ Item.\ The\ hash\ code\ of\ an\ item\ is\n\ based\ on\ its\ name\ and\ its\ weight\ in\ grammes.\n\n\ @see\ java.lang.Object\#hashCode()\n
+comment6.params=obj
+comment6.target=boolean\ equals(java.lang.Object)
+comment6.text=\n\ Returns\ whether\ this\ Item\ and\ another\ object\ are\ equal.\ This\ is\ the\n\ case\ if\ the\ other\ object\ is\ also\ an\ Item\ object\ with\ equal\ name\ and\n\ the\ same\ weight\ in\ grammes.\n\n\ @param\ obj\ another\ object\ to\ be\ compared\ with\n\ @return\ whether\ this\ Item\ and\ obj\ are\ equal\n\ @see\ java.lang.Object\#equals(java.lang.Object)\n
+comment7.params=o
+comment7.target=int\ compareTo(Item)
+comment7.text=\n\ Compares\ this\ Item\ to\ o.\ The\ comparison\ considers\ first\ the\ weights\n\ (higher\ is\ greater)\ and,\ in\ case\ of\ a\ tie,\ the\ names\ wrt\ their\n\ natural\ ordering.\n\n\ @param\ o\ the\ object\ to\ be\ compared.\n\ @return\ a\ negative\ integer,\ zero,\ or\ a\ positive\ integer\ as\ this\ object\n\ \ is\ less\ than,\ equal\ to,\ or\ greater\ than\ the\ specified\ object.\n\n\ @throws\ NullPointerException\ if\ the\ specified\ object\ is\ null\n
+numComments=8
