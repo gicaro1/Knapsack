@@ -3,7 +3,7 @@
  * are immutable: after an object of class Item has been created, one cannot
  * change the values of its attributes. Thus, the class Item has no mutators.
  *
- * @author Sandro Bellini
+ * @author Giovanny Cardenas 
  */
 public class Item implements Comparable<Item> {
 
